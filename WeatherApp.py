@@ -70,7 +70,7 @@ def show_weather():
         icon_label.config(image='')
 
 if __name__ == "__main__":
-    api_key = "eafb97bb8da56fe650b9b6c681accb0e"  # Replace with your actual API key
+    api_key = "abc123def456ghi789"  # Replace with your actual API key
     
     root = tk.Tk()
     root.title("Weather App")
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
     # Load background image
     try:
-        background_image = Image.open(r"D:\STUDIES\top-view-grey-clouds-arrangement.jpg")
+        background_image = Image.open(r"C:/Users/background.png") #Replace the path with your image path
         background_image = background_image.resize((root.winfo_screenwidth(), root.winfo_screenheight()), Image.Resampling.LANCZOS)
         background_photo = ImageTk.PhotoImage(background_image)
         
